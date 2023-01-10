@@ -9116,6 +9116,31 @@
     )
   )
 
+  (symbol (lib_id "power:GND") (at 122.555 200.66 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 04d9919d-a98f-49b4-8beb-863142dd701e)
+    (property "Reference" "#PWR0285" (at 128.905 200.66 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 122.555 201.295 90)
+      (effects (font (size 0.8 0.8)))
+    )
+    (property "Footprint" "" (at 122.555 200.66 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 122.555 200.66 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid f106b671-d518-4508-ad36-c2fa20e8343f))
+    (instances
+      (project "VFDFFT"
+        (path "/7a53a631-dec5-4274-9a20-e8f914b63ed5"
+          (reference "#PWR0285") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "Device:D_TVS") (at 131.445 71.12 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 05abb799-80c6-4073-a352-40ddb317a456)
@@ -9399,7 +9424,7 @@
   (symbol (lib_id "power:GND") (at 120.015 158.75 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0a6daa4a-75d7-44fd-90a5-dae3f7795163)
-    (property "Reference" "#PWR0189" (at 126.365 158.75 0)
+    (property "Reference" "#PWR0297" (at 126.365 158.75 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 118.11 159.385 90)
@@ -9415,7 +9440,7 @@
     (instances
       (project "VFDFFT"
         (path "/7a53a631-dec5-4274-9a20-e8f914b63ed5"
-          (reference "#PWR0189") (unit 1)
+          (reference "#PWR0297") (unit 1)
         )
       )
     )
@@ -9474,7 +9499,7 @@
   (symbol (lib_id "power:+15V") (at 95.885 153.67 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0dad7460-3135-4c95-89de-cb6a8be0ea81)
-    (property "Reference" "#PWR?" (at 99.695 153.67 0)
+    (property "Reference" "#PWR0295" (at 99.695 153.67 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+15V" (at 92.71 154.305 90)
@@ -9490,7 +9515,7 @@
     (instances
       (project "VFDFFT"
         (path "/7a53a631-dec5-4274-9a20-e8f914b63ed5"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0295") (unit 1)
         )
       )
     )
@@ -9656,7 +9681,7 @@
     (property "Reference" "C73" (at 31.75 219.075 0)
       (effects (font (size 0.8 0.8)) (justify left))
     )
-    (property "Value" "4.7uF" (at 31.75 221.615 0)
+    (property "Value" "1uF" (at 31.75 221.615 0)
       (effects (font (size 0.8 0.8)) (justify left))
     )
     (property "Footprint" "" (at 31.75 220.345 0)
@@ -10006,7 +10031,7 @@
   (symbol (lib_id "power:GND") (at 137.16 161.925 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 175d81bb-4198-4700-8e14-c95fb7243a6b)
-    (property "Reference" "#PWR0189" (at 137.16 168.275 0)
+    (property "Reference" "#PWR0288" (at 137.16 168.275 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 136.525 161.925 90)
@@ -10022,7 +10047,7 @@
     (instances
       (project "VFDFFT"
         (path "/7a53a631-dec5-4274-9a20-e8f914b63ed5"
-          (reference "#PWR0189") (unit 1)
+          (reference "#PWR0288") (unit 1)
         )
       )
     )
@@ -10680,7 +10705,7 @@
   (symbol (lib_id "power:+12V") (at 122.555 177.165 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1fe6cdaf-6f87-460b-afdd-0f01f90fc894)
-    (property "Reference" "#PWR?" (at 118.745 177.165 0)
+    (property "Reference" "#PWR0298" (at 118.745 177.165 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+12V" (at 126.365 177.8 90)
@@ -10696,7 +10721,7 @@
     (instances
       (project "VFDFFT"
         (path "/7a53a631-dec5-4274-9a20-e8f914b63ed5"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0298") (unit 1)
         )
       )
     )
@@ -10963,7 +10988,7 @@
   (symbol (lib_id "power:GND") (at 29.21 139.7 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 25a6ff97-0c80-4868-b75f-5d7b82e3d41d)
-    (property "Reference" "#PWR0200" (at 29.21 133.35 0)
+    (property "Reference" "#PWR0310" (at 29.21 133.35 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 29.21 135.255 0)
@@ -10979,7 +11004,7 @@
     (instances
       (project "VFDFFT"
         (path "/7a53a631-dec5-4274-9a20-e8f914b63ed5"
-          (reference "#PWR0200") (unit 1)
+          (reference "#PWR0310") (unit 1)
         )
       )
     )
@@ -11585,7 +11610,7 @@
     (property "Value" "104/25V" (at 203.2 161.925 0)
       (effects (font (size 0.8 0.8)) (justify left))
     )
-    (property "Footprint" "" (at 203.2 160.655 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 203.2 160.655 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 203.2 160.655 0)
@@ -11959,7 +11984,7 @@
   (symbol (lib_id "power:GND") (at 52.705 149.86 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3671df54-c66a-40a0-8825-0e83b6171626)
-    (property "Reference" "#PWR0204" (at 59.055 149.86 0)
+    (property "Reference" "#PWR0308" (at 59.055 149.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 57.15 149.86 0)
@@ -11975,7 +12000,7 @@
     (instances
       (project "VFDFFT"
         (path "/7a53a631-dec5-4274-9a20-e8f914b63ed5"
-          (reference "#PWR0204") (unit 1)
+          (reference "#PWR0308") (unit 1)
         )
       )
     )
@@ -12091,7 +12116,7 @@
   (symbol (lib_id "power:GND") (at 88.9 143.51 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 39478633-a526-4e48-a7fa-e4aaea3fffc0)
-    (property "Reference" "#PWR0189" (at 88.9 149.86 0)
+    (property "Reference" "#PWR0289" (at 88.9 149.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 88.265 141.605 90)
@@ -12107,7 +12132,7 @@
     (instances
       (project "VFDFFT"
         (path "/7a53a631-dec5-4274-9a20-e8f914b63ed5"
-          (reference "#PWR0189") (unit 1)
+          (reference "#PWR0289") (unit 1)
         )
       )
     )
@@ -12511,7 +12536,7 @@
   (symbol (lib_id "power:GND") (at 53.34 136.525 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 43b19cf1-acce-429e-abad-cd4d9c087c62)
-    (property "Reference" "#PWR0199" (at 53.34 130.175 0)
+    (property "Reference" "#PWR0307" (at 53.34 130.175 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 53.34 132.08 0)
@@ -12527,7 +12552,7 @@
     (instances
       (project "VFDFFT"
         (path "/7a53a631-dec5-4274-9a20-e8f914b63ed5"
-          (reference "#PWR0199") (unit 1)
+          (reference "#PWR0307") (unit 1)
         )
       )
     )
@@ -12978,8 +13003,8 @@
     (property "Reference" "D17" (at 100.33 140.335 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "D_Zener_Small" (at 100.33 142.875 90)
-      (effects (font (size 1.27 1.27)) (justify right))
+    (property "Value" "MMSZ5230BS" (at 100.33 142.875 90)
+      (effects (font (size 0.8 0.8)) (justify right))
     )
     (property "Footprint" "" (at 98.425 140.97 90)
       (effects (font (size 1.27 1.27)) hide)
@@ -13230,7 +13255,7 @@
   (symbol (lib_id "power:GND") (at 79.375 149.225 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4e44c732-2410-4fe0-a143-2b1b2a630cc7)
-    (property "Reference" "#PWR0168" (at 79.375 155.575 0)
+    (property "Reference" "#PWR0292" (at 79.375 155.575 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 79.375 153.67 0)
@@ -13246,7 +13271,7 @@
     (instances
       (project "VFDFFT"
         (path "/7a53a631-dec5-4274-9a20-e8f914b63ed5"
-          (reference "#PWR0168") (unit 1)
+          (reference "#PWR0292") (unit 1)
         )
       )
     )
@@ -13255,7 +13280,7 @@
   (symbol (lib_id "power:GND") (at 53.34 152.4 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4e93ae4b-4430-439d-8837-07534e3ba74c)
-    (property "Reference" "#PWR0203" (at 46.99 152.4 0)
+    (property "Reference" "#PWR0309" (at 46.99 152.4 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 48.895 152.4 0)
@@ -13271,7 +13296,7 @@
     (instances
       (project "VFDFFT"
         (path "/7a53a631-dec5-4274-9a20-e8f914b63ed5"
-          (reference "#PWR0203") (unit 1)
+          (reference "#PWR0309") (unit 1)
         )
       )
     )
@@ -13312,7 +13337,7 @@
     (property "Value" "15uF" (at 53.34 203.2 0)
       (effects (font (size 0.8 0.8)) (justify right))
     )
-    (property "Footprint" "" (at 56.515 201.93 0)
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 56.515 201.93 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 56.515 201.93 0)
@@ -13796,10 +13821,10 @@
     (property "Reference" "C71" (at 25.4 201.295 0)
       (effects (font (size 0.8 0.8)) (justify right))
     )
-    (property "Value" "27uF" (at 24.765 203.835 0)
+    (property "Value" "22uF" (at 24.765 203.835 0)
       (effects (font (size 0.8 0.8)) (justify right))
     )
-    (property "Footprint" "" (at 27.94 202.565 0)
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 27.94 202.565 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 27.94 202.565 0)
@@ -14031,7 +14056,7 @@
   (symbol (lib_name "+5V_1") (lib_id "power:+5V") (at 273.05 109.22 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 61d24d8c-bcf6-49a3-bf1c-78b690ac5358)
-    (property "Reference" "#PWR?" (at 273.05 113.03 0)
+    (property "Reference" "#PWR0304" (at 273.05 113.03 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 273.05 105.41 0)
@@ -14047,7 +14072,7 @@
     (instances
       (project "VFDFFT"
         (path "/7a53a631-dec5-4274-9a20-e8f914b63ed5"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0304") (unit 1)
         )
       )
     )
@@ -14235,7 +14260,7 @@
   (symbol (lib_id "power:GND") (at 75.565 158.115 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 64c4a333-41db-4847-b4ba-de354a57d4ec)
-    (property "Reference" "#PWR0170" (at 75.565 164.465 0)
+    (property "Reference" "#PWR0290" (at 75.565 164.465 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 75.565 162.56 0)
@@ -14251,7 +14276,7 @@
     (instances
       (project "VFDFFT"
         (path "/7a53a631-dec5-4274-9a20-e8f914b63ed5"
-          (reference "#PWR0170") (unit 1)
+          (reference "#PWR0290") (unit 1)
         )
       )
     )
@@ -14285,7 +14310,7 @@
   (symbol (lib_id "power:GND") (at 25.4 134.62 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 65875639-f99b-417d-9e88-69f14af8c889)
-    (property "Reference" "#PWR0201" (at 25.4 128.27 0)
+    (property "Reference" "#PWR0305" (at 25.4 128.27 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 25.4 130.175 0)
@@ -14301,7 +14326,7 @@
     (instances
       (project "VFDFFT"
         (path "/7a53a631-dec5-4274-9a20-e8f914b63ed5"
-          (reference "#PWR0201") (unit 1)
+          (reference "#PWR0305") (unit 1)
         )
       )
     )
@@ -14546,7 +14571,7 @@
   (symbol (lib_id "power:GND") (at 71.755 158.115 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 69f25f31-f7bf-4de9-9783-2f388831471f)
-    (property "Reference" "#PWR0171" (at 71.755 164.465 0)
+    (property "Reference" "#PWR0291" (at 71.755 164.465 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 71.755 162.56 0)
@@ -14562,7 +14587,7 @@
     (instances
       (project "VFDFFT"
         (path "/7a53a631-dec5-4274-9a20-e8f914b63ed5"
-          (reference "#PWR0171") (unit 1)
+          (reference "#PWR0291") (unit 1)
         )
       )
     )
@@ -14653,7 +14678,7 @@
     (property "Value" "1uF" (at 31.75 203.835 0)
       (effects (font (size 0.8 0.8)) (justify left))
     )
-    (property "Footprint" "" (at 31.75 202.565 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 31.75 202.565 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 31.75 202.565 0)
@@ -14835,7 +14860,7 @@
     (property "Reference" "F1" (at 44.45 23.495 0)
       (effects (font (size 0.8 0.8)))
     )
-    (property "Value" "6V/5A" (at 50.165 23.495 0)
+    (property "Value" "F0603SB8000V032TM" (at 50.165 22.86 0)
       (effects (font (size 0.8 0.8)))
     )
     (property "Footprint" "" (at 46.99 24.13 0)
@@ -15108,7 +15133,7 @@
     (property "Value" "10uF" (at 24.765 221.615 0)
       (effects (font (size 0.8 0.8)) (justify right))
     )
-    (property "Footprint" "" (at 27.94 220.345 0)
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 27.94 220.345 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 27.94 220.345 0)
@@ -15128,7 +15153,7 @@
   (symbol (lib_id "power:+BATT") (at 60.325 137.795 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 797e975f-ad09-4011-845e-9b1bc3b3df98)
-    (property "Reference" "#PWR0169" (at 60.325 141.605 0)
+    (property "Reference" "#PWR0300" (at 60.325 141.605 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+BATT" (at 59.69 140.335 90)
@@ -15144,7 +15169,7 @@
     (instances
       (project "VFDFFT"
         (path "/7a53a631-dec5-4274-9a20-e8f914b63ed5"
-          (reference "#PWR0169") (unit 1)
+          (reference "#PWR0300") (unit 1)
         )
       )
     )
@@ -15584,7 +15609,7 @@
     (property "Value" "47nF" (at 32.385 207.645 90)
       (effects (font (size 0.8 0.8)) (justify left))
     )
-    (property "Footprint" "" (at 31.75 208.28 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 31.75 208.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 31.75 208.28 0)
@@ -16173,7 +16198,7 @@
   (symbol (lib_id "power:GND") (at 58.42 144.78 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8dd4bf03-9432-49b5-9c0c-3f78ca59c69a)
-    (property "Reference" "#PWR0167" (at 64.77 144.78 0)
+    (property "Reference" "#PWR0293" (at 64.77 144.78 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 62.865 144.78 0)
@@ -16189,7 +16214,7 @@
     (instances
       (project "VFDFFT"
         (path "/7a53a631-dec5-4274-9a20-e8f914b63ed5"
-          (reference "#PWR0167") (unit 1)
+          (reference "#PWR0293") (unit 1)
         )
       )
     )
@@ -16452,7 +16477,7 @@
   (symbol (lib_id "power:GND") (at 87.63 179.07 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 93b5742e-f101-46d9-b214-adc92ca5ac38)
-    (property "Reference" "#PWR0189" (at 87.63 172.72 0)
+    (property "Reference" "#PWR0294" (at 87.63 172.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 88.265 179.07 90)
@@ -16468,7 +16493,7 @@
     (instances
       (project "VFDFFT"
         (path "/7a53a631-dec5-4274-9a20-e8f914b63ed5"
-          (reference "#PWR0189") (unit 1)
+          (reference "#PWR0294") (unit 1)
         )
       )
     )
@@ -16625,6 +16650,32 @@
     )
   )
 
+  (symbol (lib_id "Connector:Conn_01x02_Male") (at 117.475 198.12 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 97f26d0c-d5fc-4934-a42e-79a0dcff8626)
+    (property "Reference" "J13" (at 118.11 193.675 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "Conn_01x02_Male" (at 118.11 196.215 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 117.475 198.12 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 117.475 198.12 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 13a17aef-4209-424e-b890-bf66647c5a75))
+    (pin "2" (uuid 2d2d592d-9901-4049-aac3-5cac05d10269))
+    (instances
+      (project "VFDFFT"
+        (path "/7a53a631-dec5-4274-9a20-e8f914b63ed5"
+          (reference "J13") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "Connector:Conn_01x02_Pin") (at 129.54 232.41 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 981cf8ff-e99d-49e2-9d87-d77d09e1be19)
@@ -16654,7 +16705,7 @@
   (symbol (lib_id "power:GND") (at 95.885 158.75 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 983bdbff-dbb6-44f5-942d-c897ed3305a9)
-    (property "Reference" "#PWR0189" (at 95.885 165.1 0)
+    (property "Reference" "#PWR0296" (at 95.885 165.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 95.25 158.75 90)
@@ -16670,7 +16721,7 @@
     (instances
       (project "VFDFFT"
         (path "/7a53a631-dec5-4274-9a20-e8f914b63ed5"
-          (reference "#PWR0189") (unit 1)
+          (reference "#PWR0296") (unit 1)
         )
       )
     )
@@ -16822,6 +16873,31 @@
       (project "VFDFFT"
         (path "/7a53a631-dec5-4274-9a20-e8f914b63ed5"
           (reference "#PWR010") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:+12V") (at 122.555 187.325 270) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 9d20c9b6-6382-409e-826d-806da80c6cb7)
+    (property "Reference" "#PWR014" (at 118.745 187.325 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+12V" (at 126.365 187.96 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "" (at 122.555 187.325 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 122.555 187.325 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 2fe18616-a594-4603-8c73-1e39ebd1d7ca))
+    (instances
+      (project "VFDFFT"
+        (path "/7a53a631-dec5-4274-9a20-e8f914b63ed5"
+          (reference "#PWR014") (unit 1)
         )
       )
     )
@@ -16985,7 +17061,7 @@
   (symbol (lib_name "GND_1") (lib_id "power:GND") (at 273.05 132.08 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a0974322-0663-4e01-a078-6ba1bc2f2f8f)
-    (property "Reference" "#PWR?" (at 273.05 138.43 0)
+    (property "Reference" "#PWR0301" (at 273.05 138.43 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 273.05 137.16 0)
@@ -17001,7 +17077,7 @@
     (instances
       (project "VFDFFT"
         (path "/7a53a631-dec5-4274-9a20-e8f914b63ed5"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0301") (unit 1)
         )
       )
     )
@@ -17615,6 +17691,31 @@
       (project "VFDFFT"
         (path "/7a53a631-dec5-4274-9a20-e8f914b63ed5"
           (reference "#PWR0102") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:+12V") (at 122.555 198.12 270) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid aa703c17-993f-4004-a717-507f57a4e57d)
+    (property "Reference" "#PWR015" (at 118.745 198.12 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+12V" (at 126.365 198.755 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "" (at 122.555 198.12 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 122.555 198.12 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid b209fce1-9676-45d5-a19b-d3d7ab395975))
+    (instances
+      (project "VFDFFT"
+        (path "/7a53a631-dec5-4274-9a20-e8f914b63ed5"
+          (reference "#PWR015") (unit 1)
         )
       )
     )
@@ -18257,7 +18358,7 @@
   (symbol (lib_id "power:+12V") (at 137.16 151.13 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ba500d05-6d6c-4c9b-a8fa-03dc09d2fa4f)
-    (property "Reference" "#PWR?" (at 133.35 151.13 0)
+    (property "Reference" "#PWR0287" (at 133.35 151.13 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+12V" (at 140.97 151.765 90)
@@ -18273,7 +18374,7 @@
     (instances
       (project "VFDFFT"
         (path "/7a53a631-dec5-4274-9a20-e8f914b63ed5"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0287") (unit 1)
         )
       )
     )
@@ -18726,7 +18827,7 @@
   (symbol (lib_id "power:GND") (at 319.405 175.26 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c40c54f5-321d-4031-8172-b59abec89ceb)
-    (property "Reference" "#PWR0255" (at 319.405 181.61 0)
+    (property "Reference" "#PWR0302" (at 319.405 181.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 319.405 180.34 0)
@@ -18742,7 +18843,7 @@
     (instances
       (project "VFDFFT"
         (path "/7a53a631-dec5-4274-9a20-e8f914b63ed5"
-          (reference "#PWR0255") (unit 1)
+          (reference "#PWR0302") (unit 1)
         )
       )
     )
@@ -18938,7 +19039,7 @@
   (symbol (lib_id "power:GND") (at 122.555 179.705 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c6821e1d-1826-4b94-b4a2-f231a00b7df0)
-    (property "Reference" "#PWR0189" (at 128.905 179.705 0)
+    (property "Reference" "#PWR0299" (at 128.905 179.705 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 122.555 180.34 90)
@@ -18954,7 +19055,7 @@
     (instances
       (project "VFDFFT"
         (path "/7a53a631-dec5-4274-9a20-e8f914b63ed5"
-          (reference "#PWR0189") (unit 1)
+          (reference "#PWR0299") (unit 1)
         )
       )
     )
@@ -20032,7 +20133,7 @@
   (symbol (lib_id "power:+15V") (at 148.59 125.095 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid dbbdfc3f-334d-4ea4-ad30-9871cc5f15fb)
-    (property "Reference" "#PWR?" (at 144.78 125.095 0)
+    (property "Reference" "#PWR0286" (at 144.78 125.095 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+15V" (at 152.4 125.73 90)
@@ -20048,7 +20149,7 @@
     (instances
       (project "VFDFFT"
         (path "/7a53a631-dec5-4274-9a20-e8f914b63ed5"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0286") (unit 1)
         )
       )
     )
@@ -20405,7 +20506,7 @@
   (symbol (lib_id "power:GND") (at 316.865 175.26 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e382913b-5d6b-4d94-9f33-9d5f598bfca5)
-    (property "Reference" "#PWR0255" (at 316.865 181.61 0)
+    (property "Reference" "#PWR0303" (at 316.865 181.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 316.865 180.34 0)
@@ -20421,7 +20522,7 @@
     (instances
       (project "VFDFFT"
         (path "/7a53a631-dec5-4274-9a20-e8f914b63ed5"
-          (reference "#PWR0255") (unit 1)
+          (reference "#PWR0303") (unit 1)
         )
       )
     )
@@ -20597,7 +20698,7 @@
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 109.855 147.955 0)
-      (effects (font (size 1.27 1.27)))
+      (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 109.855 147.955 0)
       (effects (font (size 1.27 1.27)))
@@ -21016,6 +21117,31 @@
     )
   )
 
+  (symbol (lib_id "power:GND") (at 122.555 189.865 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid f0916656-d314-497f-8a28-0124def4b82a)
+    (property "Reference" "#PWR0284" (at 128.905 189.865 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 122.555 190.5 90)
+      (effects (font (size 0.8 0.8)))
+    )
+    (property "Footprint" "" (at 122.555 189.865 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 122.555 189.865 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid b4221556-1f66-492f-ab4d-711dafc68ab2))
+    (instances
+      (project "VFDFFT"
+        (path "/7a53a631-dec5-4274-9a20-e8f914b63ed5"
+          (reference "#PWR0284") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "power:PRI_HI") (at 82.55 117.475 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f0c588f6-32cf-4bc1-9923-627e91c6ffd3)
@@ -21254,7 +21380,7 @@
   (symbol (lib_id "power:GND") (at 57.15 136.525 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f3de5c0f-48c5-4f7a-abd1-320c4415223b)
-    (property "Reference" "#PWR0198" (at 57.15 130.175 0)
+    (property "Reference" "#PWR0306" (at 57.15 130.175 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 57.15 132.08 0)
@@ -21270,7 +21396,7 @@
     (instances
       (project "VFDFFT"
         (path "/7a53a631-dec5-4274-9a20-e8f914b63ed5"
-          (reference "#PWR0198") (unit 1)
+          (reference "#PWR0306") (unit 1)
         )
       )
     )
@@ -21279,7 +21405,7 @@
   (symbol (lib_id "power:GND") (at 34.925 149.86 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f4ef9f0a-33d3-4e4f-b710-d5793fddad71)
-    (property "Reference" "#PWR0202" (at 28.575 149.86 0)
+    (property "Reference" "#PWR0311" (at 28.575 149.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 30.48 149.86 0)
@@ -21295,7 +21421,7 @@
     (instances
       (project "VFDFFT"
         (path "/7a53a631-dec5-4274-9a20-e8f914b63ed5"
-          (reference "#PWR0202") (unit 1)
+          (reference "#PWR0311") (unit 1)
         )
       )
     )
@@ -21422,6 +21548,32 @@
       (project "VFDFFT"
         (path "/7a53a631-dec5-4274-9a20-e8f914b63ed5"
           (reference "#PWR0155") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Connector:Conn_01x02_Male") (at 117.475 187.325 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid f8754d4b-49dd-4577-9c0e-0ee8147efb5c)
+    (property "Reference" "J12" (at 118.11 182.88 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "Conn_01x02_Male" (at 118.11 185.42 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 117.475 187.325 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 117.475 187.325 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 29782a85-51ae-4942-8184-78e2df485b30))
+    (pin "2" (uuid 20073f84-00d2-4c9b-8241-3a4170fd7fcf))
+    (instances
+      (project "VFDFFT"
+        (path "/7a53a631-dec5-4274-9a20-e8f914b63ed5"
+          (reference "J12") (unit 1)
         )
       )
     )
