@@ -1,4 +1,4 @@
-21285998977993848
+21287672504689984
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -53052,6 +53052,13 @@ QFN-44_12x12_Pitch0.9mm
 0
 47
 47
+Footprints
+TRRS-PJ-320A
+
+
+0
+4
+4
 Footprints
 TYPE-C-31-M-31
 
