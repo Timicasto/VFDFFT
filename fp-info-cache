@@ -1,4 +1,4 @@
-21287672504689984
+21296813631398957
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -53025,6 +53025,13 @@ MOSFET (N-Channel)
 10
 3
 Footprints
+L_11x10mm_H3.80
+
+
+0
+2
+2
+Footprints
 L_0806_2016Metric
 Inductor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 80, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
 inductor
@@ -53046,12 +53053,26 @@ PDFN3333-8
 10
 8
 Footprints
+PDFN_3x3_GSD
+
+
+0
+9
+3
+Footprints
 QFN-44_12x12_Pitch0.9mm
 
 
 0
 47
 47
+Footprints
+SOD-323HE
+
+
+0
+2
+2
 Footprints
 TRRS-PJ-320A
 
