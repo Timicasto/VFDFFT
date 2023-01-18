@@ -1,0 +1,60 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Release-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.24"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "VFDFFT-Firmware",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "VFDFFT-Firmware.elf::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-VFDFFT-Firmware.elf-Release-0703a1cc2a0d703c06f0.json",
+					"name" : "VFDFFT-Firmware.elf",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/cmake-build-release",
+		"source" : "/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}
