@@ -150,23 +150,23 @@
 			[
 				{
 					"backtrace" : 10,
-					"path" : "/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Core/Inc"
+					"path" : "/home/timicasto/Projects/VFDFFT/Firmware/VFDFFT-Firmware/Core/Inc"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/STM32F4xx_HAL_Driver/Inc"
+					"path" : "/home/timicasto/Projects/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/STM32F4xx_HAL_Driver/Inc"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"
+					"path" : "/home/timicasto/Projects/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/CMSIS/Device/ST/STM32F4xx/Include"
+					"path" : "/home/timicasto/Projects/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/CMSIS/Device/ST/STM32F4xx/Include"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/CMSIS/Include"
+					"path" : "/home/timicasto/Projects/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/CMSIS/Include"
 				}
 			],
 			"language" : "C",
@@ -283,23 +283,23 @@
 			[
 				{
 					"backtrace" : 10,
-					"path" : "/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Core/Inc"
+					"path" : "/home/timicasto/Projects/VFDFFT/Firmware/VFDFFT-Firmware/Core/Inc"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/STM32F4xx_HAL_Driver/Inc"
+					"path" : "/home/timicasto/Projects/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/STM32F4xx_HAL_Driver/Inc"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"
+					"path" : "/home/timicasto/Projects/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/CMSIS/Device/ST/STM32F4xx/Include"
+					"path" : "/home/timicasto/Projects/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/CMSIS/Device/ST/STM32F4xx/Include"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/CMSIS/Include"
+					"path" : "/home/timicasto/Projects/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/CMSIS/Include"
 				}
 			],
 			"language" : "CXX",
@@ -386,23 +386,23 @@
 			[
 				{
 					"backtrace" : 10,
-					"path" : "/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Core/Inc"
+					"path" : "/home/timicasto/Projects/VFDFFT/Firmware/VFDFFT-Firmware/Core/Inc"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/STM32F4xx_HAL_Driver/Inc"
+					"path" : "/home/timicasto/Projects/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/STM32F4xx_HAL_Driver/Inc"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"
+					"path" : "/home/timicasto/Projects/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/CMSIS/Device/ST/STM32F4xx/Include"
+					"path" : "/home/timicasto/Projects/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/CMSIS/Device/ST/STM32F4xx/Include"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/CMSIS/Include"
+					"path" : "/home/timicasto/Projects/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/CMSIS/Include"
 				}
 			],
 			"language" : "ASM",
@@ -427,7 +427,7 @@
 			},
 			{
 				"backtrace" : 2,
-				"fragment" : "-Wl,-gc-sections,--print-memory-usage,-Map=/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/cmake-build-debug/VFDFFT-Firmware.map",
+				"fragment" : "-Wl,-gc-sections,--print-memory-usage,-Map=/home/timicasto/Projects/VFDFFT/Firmware/VFDFFT-Firmware/cmake-build-debug/VFDFFT-Firmware.map",
 				"role" : "flags"
 			},
 			{
@@ -452,7 +452,7 @@
 			},
 			{
 				"backtrace" : 4,
-				"fragment" : "/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/STM32F446VETx_FLASH.ld",
+				"fragment" : "/home/timicasto/Projects/VFDFFT/Firmware/VFDFFT-Firmware/STM32F446VETx_FLASH.ld",
 				"role" : "flags"
 			}
 		],

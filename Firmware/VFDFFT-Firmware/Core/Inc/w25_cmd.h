@@ -23,6 +23,9 @@ namespace NORCMD {
 	static const u8 FAST_READ_QO = 0x6B;
 	static const u8 FAST_READ_QIO = 0xEB;
 
+	static const u8 WRITE_ENABLE = 0x06;
+	static const u8 WRITE_DISABLE = 0x04;
+
 	static const u8 READ_REG1 = 0x05;
 	static const u8 READ_REG2 = 0x35;
 	static const u8 READ_REG3 = 0x15;
@@ -40,6 +43,10 @@ namespace NORCMD {
 
 	static const u8 SUSPEND_ERASE = 0x75;
 	static const u8 RESUME_ERASE = 0x7A;
+
+	static const u8 REG_STATUS_BUSY = 0x01;
+	static const u8 REG_STATUS_WREN = 0x02;
+	static const u8 REG_STATUS_QE = 0x02;
 
 }
 
