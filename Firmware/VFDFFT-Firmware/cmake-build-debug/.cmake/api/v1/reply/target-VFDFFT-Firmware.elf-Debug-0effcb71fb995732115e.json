@@ -132,7 +132,7 @@
 					"fragment" : "-g"
 				},
 				{
-					"fragment" : "-std=gnu11"
+					"fragment" : "-std=gnu2x"
 				}
 			],
 			"defines" : 
@@ -150,23 +150,23 @@
 			[
 				{
 					"backtrace" : 10,
-					"path" : "/home/timicasto/Projects/VFDFFT/Firmware/VFDFFT-Firmware/Core/Inc"
+					"path" : "/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Core/Inc"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "/home/timicasto/Projects/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/STM32F4xx_HAL_Driver/Inc"
+					"path" : "/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/STM32F4xx_HAL_Driver/Inc"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "/home/timicasto/Projects/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"
+					"path" : "/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "/home/timicasto/Projects/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/CMSIS/Device/ST/STM32F4xx/Include"
+					"path" : "/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/CMSIS/Device/ST/STM32F4xx/Include"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "/home/timicasto/Projects/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/CMSIS/Include"
+					"path" : "/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/CMSIS/Include"
 				}
 			],
 			"language" : "C",
@@ -176,18 +176,16 @@
 				[
 					1
 				],
-				"standard" : "11"
+				"standard" : "23"
 			},
 			"sourceIndexes" : 
 			[
-				21,
 				22,
-				25,
-				27,
+				23,
+				26,
 				28,
 				29,
 				31,
-				32,
 				33,
 				34,
 				35,
@@ -195,8 +193,8 @@
 				37,
 				38,
 				39,
-				96,
-				97,
+				40,
+				41,
 				98,
 				99,
 				100,
@@ -222,7 +220,9 @@
 				120,
 				121,
 				122,
-				123
+				123,
+				124,
+				125
 			]
 		},
 		{
@@ -266,6 +266,9 @@
 				{
 					"backtrace" : 8,
 					"fragment" : "-g"
+				},
+				{
+					"fragment" : "-std=gnu++23"
 				}
 			],
 			"defines" : 
@@ -283,23 +286,23 @@
 			[
 				{
 					"backtrace" : 10,
-					"path" : "/home/timicasto/Projects/VFDFFT/Firmware/VFDFFT-Firmware/Core/Inc"
+					"path" : "/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Core/Inc"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "/home/timicasto/Projects/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/STM32F4xx_HAL_Driver/Inc"
+					"path" : "/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/STM32F4xx_HAL_Driver/Inc"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "/home/timicasto/Projects/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"
+					"path" : "/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "/home/timicasto/Projects/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/CMSIS/Device/ST/STM32F4xx/Include"
+					"path" : "/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/CMSIS/Device/ST/STM32F4xx/Include"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "/home/timicasto/Projects/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/CMSIS/Include"
+					"path" : "/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/CMSIS/Include"
 				}
 			],
 			"language" : "CXX",
@@ -309,15 +312,16 @@
 				[
 					1
 				],
-				"standard" : "17"
+				"standard" : "23"
 			},
 			"sourceIndexes" : 
 			[
-				23,
 				24,
-				26,
+				25,
+				27,
 				30,
-				40
+				32,
+				42
 			]
 		},
 		{
@@ -386,29 +390,29 @@
 			[
 				{
 					"backtrace" : 10,
-					"path" : "/home/timicasto/Projects/VFDFFT/Firmware/VFDFFT-Firmware/Core/Inc"
+					"path" : "/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Core/Inc"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "/home/timicasto/Projects/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/STM32F4xx_HAL_Driver/Inc"
+					"path" : "/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/STM32F4xx_HAL_Driver/Inc"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "/home/timicasto/Projects/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"
+					"path" : "/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "/home/timicasto/Projects/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/CMSIS/Device/ST/STM32F4xx/Include"
+					"path" : "/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/CMSIS/Device/ST/STM32F4xx/Include"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "/home/timicasto/Projects/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/CMSIS/Include"
+					"path" : "/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/CMSIS/Include"
 				}
 			],
 			"language" : "ASM",
 			"sourceIndexes" : 
 			[
-				124
+				126
 			]
 		}
 	],
@@ -427,7 +431,7 @@
 			},
 			{
 				"backtrace" : 2,
-				"fragment" : "-Wl,-gc-sections,--print-memory-usage,-Map=/home/timicasto/Projects/VFDFFT/Firmware/VFDFFT-Firmware/cmake-build-debug/VFDFFT-Firmware.map",
+				"fragment" : "-Wl,-gc-sections,--print-memory-usage,-Map=/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/cmake-build-debug/VFDFFT-Firmware.map",
 				"role" : "flags"
 			},
 			{
@@ -452,7 +456,7 @@
 			},
 			{
 				"backtrace" : 4,
-				"fragment" : "/home/timicasto/Projects/VFDFFT/Firmware/VFDFFT-Firmware/STM32F446VETx_FLASH.ld",
+				"fragment" : "/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/STM32F446VETx_FLASH.ld",
 				"role" : "flags"
 			}
 		],
@@ -492,8 +496,7 @@
 				18,
 				19,
 				20,
-				41,
-				42,
+				21,
 				43,
 				44,
 				45,
@@ -546,14 +549,15 @@
 				92,
 				93,
 				94,
-				95
+				95,
+				96,
+				97
 			]
 		},
 		{
 			"name" : "Source Files",
 			"sourceIndexes" : 
 			[
-				21,
 				22,
 				23,
 				24,
@@ -573,8 +577,8 @@
 				38,
 				39,
 				40,
-				96,
-				97,
+				41,
+				42,
 				98,
 				99,
 				100,
@@ -600,15 +604,17 @@
 				120,
 				121,
 				122,
-				123
+				123,
+				124,
+				125
 			]
 		},
 		{
 			"name" : "",
 			"sourceIndexes" : 
 			[
-				124,
-				125
+				126,
+				127
 			]
 		}
 	],
@@ -652,6 +658,11 @@
 		{
 			"backtrace" : 1,
 			"path" : "Core/Inc/i2s.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Core/Inc/logging.h",
 			"sourceGroupIndex" : 0
 		},
 		{
@@ -765,6 +776,12 @@
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
 			"path" : "Core/Src/i2s.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "Core/Src/logging.cpp",
 			"sourceGroupIndex" : 1
 		},
 		{

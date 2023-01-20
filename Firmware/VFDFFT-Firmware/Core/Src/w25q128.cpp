@@ -186,6 +186,8 @@ u8 eraseBlockW25Q128(QSPI_HandleTypeDef *qspi, u32 addr) {
 	HAL_QSPI_Command(qspi, &command, HAL_QPSI_TIMEOUT_DEFAULT_VALUE);
 
 	pollMemoryReadyState(qspi, 800);
+
+	return HAL_OK;
 }
 
 u8 eraseChipW25Q128(QSPI_HandleTypeDef *qspi, u32 addr) {

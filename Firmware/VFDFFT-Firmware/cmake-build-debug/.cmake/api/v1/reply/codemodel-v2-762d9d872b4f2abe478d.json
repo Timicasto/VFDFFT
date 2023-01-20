@@ -6,7 +6,7 @@
 			[
 				{
 					"build" : ".",
-					"jsonFile" : "directory-.-Release-f5ebdc15457944623624.json",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.24"
@@ -19,7 +19,7 @@
 					]
 				}
 			],
-			"name" : "Release",
+			"name" : "Debug",
 			"projects" : 
 			[
 				{
@@ -39,7 +39,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "VFDFFT-Firmware.elf::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-VFDFFT-Firmware.elf-Release-eeed66cd3302ccaaa346.json",
+					"jsonFile" : "target-VFDFFT-Firmware.elf-Debug-0effcb71fb995732115e.json",
 					"name" : "VFDFFT-Firmware.elf",
 					"projectIndex" : 0
 				}
@@ -49,7 +49,7 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/cmake-build-release",
+		"build" : "/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/cmake-build-debug",
 		"source" : "/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware"
 	},
 	"version" : 

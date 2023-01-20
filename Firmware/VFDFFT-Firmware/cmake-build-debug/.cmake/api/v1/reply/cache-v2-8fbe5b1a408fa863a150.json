@@ -163,7 +163,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/timicasto/Projects/VFDFFT/Firmware/VFDFFT-Firmware/cmake-build-debug"
+			"value" : "/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -619,7 +619,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/timicasto/Projects/VFDFFT/Firmware/VFDFFT-Firmware/cmake-build-debug/CMakeFiles/pkgRedirects"
+			"value" : "/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/cmake-build-debug/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -679,7 +679,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/timicasto/Projects/VFDFFT/Firmware/VFDFFT-Firmware"
+			"value" : "/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -1167,7 +1167,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/timicasto/Projects/VFDFFT/Firmware/VFDFFT-Firmware/cmake-build-debug"
+			"value" : "/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/cmake-build-debug"
 		},
 		{
 			"name" : "VFDFFT-Firmware_IS_TOP_LEVEL",
@@ -1191,7 +1191,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/timicasto/Projects/VFDFFT/Firmware/VFDFFT-Firmware"
+			"value" : "/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware"
 		}
 	],
 	"kind" : "cache",

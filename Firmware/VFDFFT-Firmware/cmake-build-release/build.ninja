@@ -52,7 +52,7 @@ build cmake_object_order_depends_target_VFDFFT-Firmware.elf: phony || CMakeFiles
 build CMakeFiles/VFDFFT-Firmware.elf.dir/Core/Src/dac.c.obj: C_COMPILER__VFDFFT-Firmware.2eelf_Release /home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Core/Src/dac.c || cmake_object_order_depends_target_VFDFFT-Firmware.elf
   DEFINES = -DSTM32F446xx -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles/VFDFFT-Firmware.elf.dir/Core/Src/dac.c.obj.d
-  FLAGS = -O3 -DNDEBUG -fdiagnostics-color=always -mcpu=cortex-m4 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Ofast -std=gnu11
+  FLAGS = -O3 -DNDEBUG -fdiagnostics-color=always -mcpu=cortex-m4 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Ofast -std=gnu2x
   INCLUDES = -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Core/Inc -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/STM32F4xx_HAL_Driver/Inc -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/CMSIS/Device/ST/STM32F4xx/Include -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles/VFDFFT-Firmware.elf.dir
   OBJECT_FILE_DIR = CMakeFiles/VFDFFT-Firmware.elf.dir/Core/Src
@@ -60,7 +60,7 @@ build CMakeFiles/VFDFFT-Firmware.elf.dir/Core/Src/dac.c.obj: C_COMPILER__VFDFFT-
 build CMakeFiles/VFDFFT-Firmware.elf.dir/Core/Src/dma.c.obj: C_COMPILER__VFDFFT-Firmware.2eelf_Release /home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Core/Src/dma.c || cmake_object_order_depends_target_VFDFFT-Firmware.elf
   DEFINES = -DSTM32F446xx -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles/VFDFFT-Firmware.elf.dir/Core/Src/dma.c.obj.d
-  FLAGS = -O3 -DNDEBUG -fdiagnostics-color=always -mcpu=cortex-m4 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Ofast -std=gnu11
+  FLAGS = -O3 -DNDEBUG -fdiagnostics-color=always -mcpu=cortex-m4 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Ofast -std=gnu2x
   INCLUDES = -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Core/Inc -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/STM32F4xx_HAL_Driver/Inc -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/CMSIS/Device/ST/STM32F4xx/Include -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles/VFDFFT-Firmware.elf.dir
   OBJECT_FILE_DIR = CMakeFiles/VFDFFT-Firmware.elf.dir/Core/Src
@@ -68,7 +68,7 @@ build CMakeFiles/VFDFFT-Firmware.elf.dir/Core/Src/dma.c.obj: C_COMPILER__VFDFFT-
 build CMakeFiles/VFDFFT-Firmware.elf.dir/Core/Src/es9023.cpp.obj: CXX_COMPILER__VFDFFT-Firmware.2eelf_Release /home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Core/Src/es9023.cpp || cmake_object_order_depends_target_VFDFFT-Firmware.elf
   DEFINES = -DSTM32F446xx -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles/VFDFFT-Firmware.elf.dir/Core/Src/es9023.cpp.obj.d
-  FLAGS = -O3 -DNDEBUG -fdiagnostics-color=always -mcpu=cortex-m4 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Ofast
+  FLAGS = -O3 -DNDEBUG -fdiagnostics-color=always -mcpu=cortex-m4 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Ofast -std=gnu++23
   INCLUDES = -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Core/Inc -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/STM32F4xx_HAL_Driver/Inc -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/CMSIS/Device/ST/STM32F4xx/Include -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles/VFDFFT-Firmware.elf.dir
   OBJECT_FILE_DIR = CMakeFiles/VFDFFT-Firmware.elf.dir/Core/Src
@@ -76,7 +76,7 @@ build CMakeFiles/VFDFFT-Firmware.elf.dir/Core/Src/es9023.cpp.obj: CXX_COMPILER__
 build CMakeFiles/VFDFFT-Firmware.elf.dir/Core/Src/gp1287bi.cpp.obj: CXX_COMPILER__VFDFFT-Firmware.2eelf_Release /home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Core/Src/gp1287bi.cpp || cmake_object_order_depends_target_VFDFFT-Firmware.elf
   DEFINES = -DSTM32F446xx -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles/VFDFFT-Firmware.elf.dir/Core/Src/gp1287bi.cpp.obj.d
-  FLAGS = -O3 -DNDEBUG -fdiagnostics-color=always -mcpu=cortex-m4 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Ofast
+  FLAGS = -O3 -DNDEBUG -fdiagnostics-color=always -mcpu=cortex-m4 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Ofast -std=gnu++23
   INCLUDES = -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Core/Inc -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/STM32F4xx_HAL_Driver/Inc -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/CMSIS/Device/ST/STM32F4xx/Include -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles/VFDFFT-Firmware.elf.dir
   OBJECT_FILE_DIR = CMakeFiles/VFDFFT-Firmware.elf.dir/Core/Src
@@ -84,7 +84,7 @@ build CMakeFiles/VFDFFT-Firmware.elf.dir/Core/Src/gp1287bi.cpp.obj: CXX_COMPILER
 build CMakeFiles/VFDFFT-Firmware.elf.dir/Core/Src/gpio.c.obj: C_COMPILER__VFDFFT-Firmware.2eelf_Release /home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Core/Src/gpio.c || cmake_object_order_depends_target_VFDFFT-Firmware.elf
   DEFINES = -DSTM32F446xx -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles/VFDFFT-Firmware.elf.dir/Core/Src/gpio.c.obj.d
-  FLAGS = -O3 -DNDEBUG -fdiagnostics-color=always -mcpu=cortex-m4 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Ofast -std=gnu11
+  FLAGS = -O3 -DNDEBUG -fdiagnostics-color=always -mcpu=cortex-m4 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Ofast -std=gnu2x
   INCLUDES = -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Core/Inc -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/STM32F4xx_HAL_Driver/Inc -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/CMSIS/Device/ST/STM32F4xx/Include -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles/VFDFFT-Firmware.elf.dir
   OBJECT_FILE_DIR = CMakeFiles/VFDFFT-Firmware.elf.dir/Core/Src
@@ -92,7 +92,7 @@ build CMakeFiles/VFDFFT-Firmware.elf.dir/Core/Src/gpio.c.obj: C_COMPILER__VFDFFT
 build CMakeFiles/VFDFFT-Firmware.elf.dir/Core/Src/hdc1080.cpp.obj: CXX_COMPILER__VFDFFT-Firmware.2eelf_Release /home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Core/Src/hdc1080.cpp || cmake_object_order_depends_target_VFDFFT-Firmware.elf
   DEFINES = -DSTM32F446xx -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles/VFDFFT-Firmware.elf.dir/Core/Src/hdc1080.cpp.obj.d
-  FLAGS = -O3 -DNDEBUG -fdiagnostics-color=always -mcpu=cortex-m4 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Ofast
+  FLAGS = -O3 -DNDEBUG -fdiagnostics-color=always -mcpu=cortex-m4 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Ofast -std=gnu++23
   INCLUDES = -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Core/Inc -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/STM32F4xx_HAL_Driver/Inc -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/CMSIS/Device/ST/STM32F4xx/Include -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles/VFDFFT-Firmware.elf.dir
   OBJECT_FILE_DIR = CMakeFiles/VFDFFT-Firmware.elf.dir/Core/Src
@@ -100,7 +100,7 @@ build CMakeFiles/VFDFFT-Firmware.elf.dir/Core/Src/hdc1080.cpp.obj: CXX_COMPILER_
 build CMakeFiles/VFDFFT-Firmware.elf.dir/Core/Src/i2c.c.obj: C_COMPILER__VFDFFT-Firmware.2eelf_Release /home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Core/Src/i2c.c || cmake_object_order_depends_target_VFDFFT-Firmware.elf
   DEFINES = -DSTM32F446xx -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles/VFDFFT-Firmware.elf.dir/Core/Src/i2c.c.obj.d
-  FLAGS = -O3 -DNDEBUG -fdiagnostics-color=always -mcpu=cortex-m4 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Ofast -std=gnu11
+  FLAGS = -O3 -DNDEBUG -fdiagnostics-color=always -mcpu=cortex-m4 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Ofast -std=gnu2x
   INCLUDES = -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Core/Inc -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/STM32F4xx_HAL_Driver/Inc -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/CMSIS/Device/ST/STM32F4xx/Include -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles/VFDFFT-Firmware.elf.dir
   OBJECT_FILE_DIR = CMakeFiles/VFDFFT-Firmware.elf.dir/Core/Src
@@ -108,7 +108,15 @@ build CMakeFiles/VFDFFT-Firmware.elf.dir/Core/Src/i2c.c.obj: C_COMPILER__VFDFFT-
 build CMakeFiles/VFDFFT-Firmware.elf.dir/Core/Src/i2s.c.obj: C_COMPILER__VFDFFT-Firmware.2eelf_Release /home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Core/Src/i2s.c || cmake_object_order_depends_target_VFDFFT-Firmware.elf
   DEFINES = -DSTM32F446xx -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles/VFDFFT-Firmware.elf.dir/Core/Src/i2s.c.obj.d
-  FLAGS = -O3 -DNDEBUG -fdiagnostics-color=always -mcpu=cortex-m4 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Ofast -std=gnu11
+  FLAGS = -O3 -DNDEBUG -fdiagnostics-color=always -mcpu=cortex-m4 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Ofast -std=gnu2x
+  INCLUDES = -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Core/Inc -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/STM32F4xx_HAL_Driver/Inc -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/CMSIS/Device/ST/STM32F4xx/Include -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/CMSIS/Include
+  OBJECT_DIR = CMakeFiles/VFDFFT-Firmware.elf.dir
+  OBJECT_FILE_DIR = CMakeFiles/VFDFFT-Firmware.elf.dir/Core/Src
+
+build CMakeFiles/VFDFFT-Firmware.elf.dir/Core/Src/logging.cpp.obj: CXX_COMPILER__VFDFFT-Firmware.2eelf_Release /home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Core/Src/logging.cpp || cmake_object_order_depends_target_VFDFFT-Firmware.elf
+  DEFINES = -DSTM32F446xx -DUSE_HAL_DRIVER
+  DEP_FILE = CMakeFiles/VFDFFT-Firmware.elf.dir/Core/Src/logging.cpp.obj.d
+  FLAGS = -O3 -DNDEBUG -fdiagnostics-color=always -mcpu=cortex-m4 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Ofast -std=gnu++23
   INCLUDES = -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Core/Inc -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/STM32F4xx_HAL_Driver/Inc -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/CMSIS/Device/ST/STM32F4xx/Include -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles/VFDFFT-Firmware.elf.dir
   OBJECT_FILE_DIR = CMakeFiles/VFDFFT-Firmware.elf.dir/Core/Src
@@ -116,7 +124,7 @@ build CMakeFiles/VFDFFT-Firmware.elf.dir/Core/Src/i2s.c.obj: C_COMPILER__VFDFFT-
 build CMakeFiles/VFDFFT-Firmware.elf.dir/Core/Src/main.c.obj: C_COMPILER__VFDFFT-Firmware.2eelf_Release /home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Core/Src/main.c || cmake_object_order_depends_target_VFDFFT-Firmware.elf
   DEFINES = -DSTM32F446xx -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles/VFDFFT-Firmware.elf.dir/Core/Src/main.c.obj.d
-  FLAGS = -O3 -DNDEBUG -fdiagnostics-color=always -mcpu=cortex-m4 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Ofast -std=gnu11
+  FLAGS = -O3 -DNDEBUG -fdiagnostics-color=always -mcpu=cortex-m4 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Ofast -std=gnu2x
   INCLUDES = -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Core/Inc -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/STM32F4xx_HAL_Driver/Inc -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/CMSIS/Device/ST/STM32F4xx/Include -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles/VFDFFT-Firmware.elf.dir
   OBJECT_FILE_DIR = CMakeFiles/VFDFFT-Firmware.elf.dir/Core/Src
@@ -124,7 +132,7 @@ build CMakeFiles/VFDFFT-Firmware.elf.dir/Core/Src/main.c.obj: C_COMPILER__VFDFFT
 build CMakeFiles/VFDFFT-Firmware.elf.dir/Core/Src/opt3001.cpp.obj: CXX_COMPILER__VFDFFT-Firmware.2eelf_Release /home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Core/Src/opt3001.cpp || cmake_object_order_depends_target_VFDFFT-Firmware.elf
   DEFINES = -DSTM32F446xx -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles/VFDFFT-Firmware.elf.dir/Core/Src/opt3001.cpp.obj.d
-  FLAGS = -O3 -DNDEBUG -fdiagnostics-color=always -mcpu=cortex-m4 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Ofast
+  FLAGS = -O3 -DNDEBUG -fdiagnostics-color=always -mcpu=cortex-m4 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Ofast -std=gnu++23
   INCLUDES = -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Core/Inc -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/STM32F4xx_HAL_Driver/Inc -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/CMSIS/Device/ST/STM32F4xx/Include -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles/VFDFFT-Firmware.elf.dir
   OBJECT_FILE_DIR = CMakeFiles/VFDFFT-Firmware.elf.dir/Core/Src
@@ -132,7 +140,7 @@ build CMakeFiles/VFDFFT-Firmware.elf.dir/Core/Src/opt3001.cpp.obj: CXX_COMPILER_
 build CMakeFiles/VFDFFT-Firmware.elf.dir/Core/Src/quadspi.c.obj: C_COMPILER__VFDFFT-Firmware.2eelf_Release /home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Core/Src/quadspi.c || cmake_object_order_depends_target_VFDFFT-Firmware.elf
   DEFINES = -DSTM32F446xx -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles/VFDFFT-Firmware.elf.dir/Core/Src/quadspi.c.obj.d
-  FLAGS = -O3 -DNDEBUG -fdiagnostics-color=always -mcpu=cortex-m4 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Ofast -std=gnu11
+  FLAGS = -O3 -DNDEBUG -fdiagnostics-color=always -mcpu=cortex-m4 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Ofast -std=gnu2x
   INCLUDES = -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Core/Inc -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/STM32F4xx_HAL_Driver/Inc -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/CMSIS/Device/ST/STM32F4xx/Include -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles/VFDFFT-Firmware.elf.dir
   OBJECT_FILE_DIR = CMakeFiles/VFDFFT-Firmware.elf.dir/Core/Src
@@ -140,7 +148,7 @@ build CMakeFiles/VFDFFT-Firmware.elf.dir/Core/Src/quadspi.c.obj: C_COMPILER__VFD
 build CMakeFiles/VFDFFT-Firmware.elf.dir/Core/Src/sdio.c.obj: C_COMPILER__VFDFFT-Firmware.2eelf_Release /home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Core/Src/sdio.c || cmake_object_order_depends_target_VFDFFT-Firmware.elf
   DEFINES = -DSTM32F446xx -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles/VFDFFT-Firmware.elf.dir/Core/Src/sdio.c.obj.d
-  FLAGS = -O3 -DNDEBUG -fdiagnostics-color=always -mcpu=cortex-m4 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Ofast -std=gnu11
+  FLAGS = -O3 -DNDEBUG -fdiagnostics-color=always -mcpu=cortex-m4 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Ofast -std=gnu2x
   INCLUDES = -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Core/Inc -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/STM32F4xx_HAL_Driver/Inc -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/CMSIS/Device/ST/STM32F4xx/Include -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles/VFDFFT-Firmware.elf.dir
   OBJECT_FILE_DIR = CMakeFiles/VFDFFT-Firmware.elf.dir/Core/Src
@@ -148,7 +156,7 @@ build CMakeFiles/VFDFFT-Firmware.elf.dir/Core/Src/sdio.c.obj: C_COMPILER__VFDFFT
 build CMakeFiles/VFDFFT-Firmware.elf.dir/Core/Src/spi.c.obj: C_COMPILER__VFDFFT-Firmware.2eelf_Release /home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Core/Src/spi.c || cmake_object_order_depends_target_VFDFFT-Firmware.elf
   DEFINES = -DSTM32F446xx -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles/VFDFFT-Firmware.elf.dir/Core/Src/spi.c.obj.d
-  FLAGS = -O3 -DNDEBUG -fdiagnostics-color=always -mcpu=cortex-m4 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Ofast -std=gnu11
+  FLAGS = -O3 -DNDEBUG -fdiagnostics-color=always -mcpu=cortex-m4 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Ofast -std=gnu2x
   INCLUDES = -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Core/Inc -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/STM32F4xx_HAL_Driver/Inc -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/CMSIS/Device/ST/STM32F4xx/Include -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles/VFDFFT-Firmware.elf.dir
   OBJECT_FILE_DIR = CMakeFiles/VFDFFT-Firmware.elf.dir/Core/Src
@@ -156,7 +164,7 @@ build CMakeFiles/VFDFFT-Firmware.elf.dir/Core/Src/spi.c.obj: C_COMPILER__VFDFFT-
 build CMakeFiles/VFDFFT-Firmware.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj: C_COMPILER__VFDFFT-Firmware.2eelf_Release /home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Core/Src/stm32f4xx_hal_msp.c || cmake_object_order_depends_target_VFDFFT-Firmware.elf
   DEFINES = -DSTM32F446xx -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles/VFDFFT-Firmware.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj.d
-  FLAGS = -O3 -DNDEBUG -fdiagnostics-color=always -mcpu=cortex-m4 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Ofast -std=gnu11
+  FLAGS = -O3 -DNDEBUG -fdiagnostics-color=always -mcpu=cortex-m4 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Ofast -std=gnu2x
   INCLUDES = -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Core/Inc -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/STM32F4xx_HAL_Driver/Inc -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/CMSIS/Device/ST/STM32F4xx/Include -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles/VFDFFT-Firmware.elf.dir
   OBJECT_FILE_DIR = CMakeFiles/VFDFFT-Firmware.elf.dir/Core/Src
@@ -164,7 +172,7 @@ build CMakeFiles/VFDFFT-Firmware.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj: C_COM
 build CMakeFiles/VFDFFT-Firmware.elf.dir/Core/Src/stm32f4xx_it.c.obj: C_COMPILER__VFDFFT-Firmware.2eelf_Release /home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Core/Src/stm32f4xx_it.c || cmake_object_order_depends_target_VFDFFT-Firmware.elf
   DEFINES = -DSTM32F446xx -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles/VFDFFT-Firmware.elf.dir/Core/Src/stm32f4xx_it.c.obj.d
-  FLAGS = -O3 -DNDEBUG -fdiagnostics-color=always -mcpu=cortex-m4 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Ofast -std=gnu11
+  FLAGS = -O3 -DNDEBUG -fdiagnostics-color=always -mcpu=cortex-m4 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Ofast -std=gnu2x
   INCLUDES = -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Core/Inc -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/STM32F4xx_HAL_Driver/Inc -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/CMSIS/Device/ST/STM32F4xx/Include -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles/VFDFFT-Firmware.elf.dir
   OBJECT_FILE_DIR = CMakeFiles/VFDFFT-Firmware.elf.dir/Core/Src
@@ -172,7 +180,7 @@ build CMakeFiles/VFDFFT-Firmware.elf.dir/Core/Src/stm32f4xx_it.c.obj: C_COMPILER
 build CMakeFiles/VFDFFT-Firmware.elf.dir/Core/Src/syscalls.c.obj: C_COMPILER__VFDFFT-Firmware.2eelf_Release /home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Core/Src/syscalls.c || cmake_object_order_depends_target_VFDFFT-Firmware.elf
   DEFINES = -DSTM32F446xx -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles/VFDFFT-Firmware.elf.dir/Core/Src/syscalls.c.obj.d
-  FLAGS = -O3 -DNDEBUG -fdiagnostics-color=always -mcpu=cortex-m4 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Ofast -std=gnu11
+  FLAGS = -O3 -DNDEBUG -fdiagnostics-color=always -mcpu=cortex-m4 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Ofast -std=gnu2x
   INCLUDES = -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Core/Inc -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/STM32F4xx_HAL_Driver/Inc -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/CMSIS/Device/ST/STM32F4xx/Include -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles/VFDFFT-Firmware.elf.dir
   OBJECT_FILE_DIR = CMakeFiles/VFDFFT-Firmware.elf.dir/Core/Src
@@ -180,7 +188,7 @@ build CMakeFiles/VFDFFT-Firmware.elf.dir/Core/Src/syscalls.c.obj: C_COMPILER__VF
 build CMakeFiles/VFDFFT-Firmware.elf.dir/Core/Src/system_stm32f4xx.c.obj: C_COMPILER__VFDFFT-Firmware.2eelf_Release /home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Core/Src/system_stm32f4xx.c || cmake_object_order_depends_target_VFDFFT-Firmware.elf
   DEFINES = -DSTM32F446xx -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles/VFDFFT-Firmware.elf.dir/Core/Src/system_stm32f4xx.c.obj.d
-  FLAGS = -O3 -DNDEBUG -fdiagnostics-color=always -mcpu=cortex-m4 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Ofast -std=gnu11
+  FLAGS = -O3 -DNDEBUG -fdiagnostics-color=always -mcpu=cortex-m4 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Ofast -std=gnu2x
   INCLUDES = -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Core/Inc -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/STM32F4xx_HAL_Driver/Inc -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/CMSIS/Device/ST/STM32F4xx/Include -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles/VFDFFT-Firmware.elf.dir
   OBJECT_FILE_DIR = CMakeFiles/VFDFFT-Firmware.elf.dir/Core/Src
@@ -188,7 +196,7 @@ build CMakeFiles/VFDFFT-Firmware.elf.dir/Core/Src/system_stm32f4xx.c.obj: C_COMP
 build CMakeFiles/VFDFFT-Firmware.elf.dir/Core/Src/usart.c.obj: C_COMPILER__VFDFFT-Firmware.2eelf_Release /home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Core/Src/usart.c || cmake_object_order_depends_target_VFDFFT-Firmware.elf
   DEFINES = -DSTM32F446xx -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles/VFDFFT-Firmware.elf.dir/Core/Src/usart.c.obj.d
-  FLAGS = -O3 -DNDEBUG -fdiagnostics-color=always -mcpu=cortex-m4 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Ofast -std=gnu11
+  FLAGS = -O3 -DNDEBUG -fdiagnostics-color=always -mcpu=cortex-m4 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Ofast -std=gnu2x
   INCLUDES = -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Core/Inc -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/STM32F4xx_HAL_Driver/Inc -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/CMSIS/Device/ST/STM32F4xx/Include -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles/VFDFFT-Firmware.elf.dir
   OBJECT_FILE_DIR = CMakeFiles/VFDFFT-Firmware.elf.dir/Core/Src
@@ -196,7 +204,7 @@ build CMakeFiles/VFDFFT-Firmware.elf.dir/Core/Src/usart.c.obj: C_COMPILER__VFDFF
 build CMakeFiles/VFDFFT-Firmware.elf.dir/Core/Src/usb_otg.c.obj: C_COMPILER__VFDFFT-Firmware.2eelf_Release /home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Core/Src/usb_otg.c || cmake_object_order_depends_target_VFDFFT-Firmware.elf
   DEFINES = -DSTM32F446xx -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles/VFDFFT-Firmware.elf.dir/Core/Src/usb_otg.c.obj.d
-  FLAGS = -O3 -DNDEBUG -fdiagnostics-color=always -mcpu=cortex-m4 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Ofast -std=gnu11
+  FLAGS = -O3 -DNDEBUG -fdiagnostics-color=always -mcpu=cortex-m4 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Ofast -std=gnu2x
   INCLUDES = -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Core/Inc -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/STM32F4xx_HAL_Driver/Inc -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/CMSIS/Device/ST/STM32F4xx/Include -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles/VFDFFT-Firmware.elf.dir
   OBJECT_FILE_DIR = CMakeFiles/VFDFFT-Firmware.elf.dir/Core/Src
@@ -204,7 +212,7 @@ build CMakeFiles/VFDFFT-Firmware.elf.dir/Core/Src/usb_otg.c.obj: C_COMPILER__VFD
 build CMakeFiles/VFDFFT-Firmware.elf.dir/Core/Src/w25q128.cpp.obj: CXX_COMPILER__VFDFFT-Firmware.2eelf_Release /home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Core/Src/w25q128.cpp || cmake_object_order_depends_target_VFDFFT-Firmware.elf
   DEFINES = -DSTM32F446xx -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles/VFDFFT-Firmware.elf.dir/Core/Src/w25q128.cpp.obj.d
-  FLAGS = -O3 -DNDEBUG -fdiagnostics-color=always -mcpu=cortex-m4 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Ofast
+  FLAGS = -O3 -DNDEBUG -fdiagnostics-color=always -mcpu=cortex-m4 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Ofast -std=gnu++23
   INCLUDES = -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Core/Inc -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/STM32F4xx_HAL_Driver/Inc -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/CMSIS/Device/ST/STM32F4xx/Include -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles/VFDFFT-Firmware.elf.dir
   OBJECT_FILE_DIR = CMakeFiles/VFDFFT-Firmware.elf.dir/Core/Src
@@ -212,7 +220,7 @@ build CMakeFiles/VFDFFT-Firmware.elf.dir/Core/Src/w25q128.cpp.obj: CXX_COMPILER_
 build CMakeFiles/VFDFFT-Firmware.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj: C_COMPILER__VFDFFT-Firmware.2eelf_Release /home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c || cmake_object_order_depends_target_VFDFFT-Firmware.elf
   DEFINES = -DSTM32F446xx -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles/VFDFFT-Firmware.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj.d
-  FLAGS = -O3 -DNDEBUG -fdiagnostics-color=always -mcpu=cortex-m4 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Ofast -std=gnu11
+  FLAGS = -O3 -DNDEBUG -fdiagnostics-color=always -mcpu=cortex-m4 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Ofast -std=gnu2x
   INCLUDES = -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Core/Inc -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/STM32F4xx_HAL_Driver/Inc -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/CMSIS/Device/ST/STM32F4xx/Include -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles/VFDFFT-Firmware.elf.dir
   OBJECT_FILE_DIR = CMakeFiles/VFDFFT-Firmware.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src
@@ -220,7 +228,7 @@ build CMakeFiles/VFDFFT-Firmware.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f
 build CMakeFiles/VFDFFT-Firmware.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj: C_COMPILER__VFDFFT-Firmware.2eelf_Release /home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c || cmake_object_order_depends_target_VFDFFT-Firmware.elf
   DEFINES = -DSTM32F446xx -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles/VFDFFT-Firmware.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj.d
-  FLAGS = -O3 -DNDEBUG -fdiagnostics-color=always -mcpu=cortex-m4 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Ofast -std=gnu11
+  FLAGS = -O3 -DNDEBUG -fdiagnostics-color=always -mcpu=cortex-m4 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Ofast -std=gnu2x
   INCLUDES = -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Core/Inc -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/STM32F4xx_HAL_Driver/Inc -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/CMSIS/Device/ST/STM32F4xx/Include -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles/VFDFFT-Firmware.elf.dir
   OBJECT_FILE_DIR = CMakeFiles/VFDFFT-Firmware.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src
@@ -228,7 +236,7 @@ build CMakeFiles/VFDFFT-Firmware.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f
 build CMakeFiles/VFDFFT-Firmware.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac.c.obj: C_COMPILER__VFDFFT-Firmware.2eelf_Release /home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac.c || cmake_object_order_depends_target_VFDFFT-Firmware.elf
   DEFINES = -DSTM32F446xx -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles/VFDFFT-Firmware.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac.c.obj.d
-  FLAGS = -O3 -DNDEBUG -fdiagnostics-color=always -mcpu=cortex-m4 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Ofast -std=gnu11
+  FLAGS = -O3 -DNDEBUG -fdiagnostics-color=always -mcpu=cortex-m4 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Ofast -std=gnu2x
   INCLUDES = -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Core/Inc -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/STM32F4xx_HAL_Driver/Inc -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/CMSIS/Device/ST/STM32F4xx/Include -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles/VFDFFT-Firmware.elf.dir
   OBJECT_FILE_DIR = CMakeFiles/VFDFFT-Firmware.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src
@@ -236,7 +244,7 @@ build CMakeFiles/VFDFFT-Firmware.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f
 build CMakeFiles/VFDFFT-Firmware.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac_ex.c.obj: C_COMPILER__VFDFFT-Firmware.2eelf_Release /home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac_ex.c || cmake_object_order_depends_target_VFDFFT-Firmware.elf
   DEFINES = -DSTM32F446xx -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles/VFDFFT-Firmware.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac_ex.c.obj.d
-  FLAGS = -O3 -DNDEBUG -fdiagnostics-color=always -mcpu=cortex-m4 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Ofast -std=gnu11
+  FLAGS = -O3 -DNDEBUG -fdiagnostics-color=always -mcpu=cortex-m4 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Ofast -std=gnu2x
   INCLUDES = -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Core/Inc -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/STM32F4xx_HAL_Driver/Inc -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/CMSIS/Device/ST/STM32F4xx/Include -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles/VFDFFT-Firmware.elf.dir
   OBJECT_FILE_DIR = CMakeFiles/VFDFFT-Firmware.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src
@@ -244,7 +252,7 @@ build CMakeFiles/VFDFFT-Firmware.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f
 build CMakeFiles/VFDFFT-Firmware.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj: C_COMPILER__VFDFFT-Firmware.2eelf_Release /home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c || cmake_object_order_depends_target_VFDFFT-Firmware.elf
   DEFINES = -DSTM32F446xx -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles/VFDFFT-Firmware.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj.d
-  FLAGS = -O3 -DNDEBUG -fdiagnostics-color=always -mcpu=cortex-m4 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Ofast -std=gnu11
+  FLAGS = -O3 -DNDEBUG -fdiagnostics-color=always -mcpu=cortex-m4 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Ofast -std=gnu2x
   INCLUDES = -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Core/Inc -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/STM32F4xx_HAL_Driver/Inc -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/CMSIS/Device/ST/STM32F4xx/Include -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles/VFDFFT-Firmware.elf.dir
   OBJECT_FILE_DIR = CMakeFiles/VFDFFT-Firmware.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src
@@ -252,7 +260,7 @@ build CMakeFiles/VFDFFT-Firmware.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f
 build CMakeFiles/VFDFFT-Firmware.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj: C_COMPILER__VFDFFT-Firmware.2eelf_Release /home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c || cmake_object_order_depends_target_VFDFFT-Firmware.elf
   DEFINES = -DSTM32F446xx -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles/VFDFFT-Firmware.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj.d
-  FLAGS = -O3 -DNDEBUG -fdiagnostics-color=always -mcpu=cortex-m4 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Ofast -std=gnu11
+  FLAGS = -O3 -DNDEBUG -fdiagnostics-color=always -mcpu=cortex-m4 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Ofast -std=gnu2x
   INCLUDES = -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Core/Inc -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/STM32F4xx_HAL_Driver/Inc -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/CMSIS/Device/ST/STM32F4xx/Include -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles/VFDFFT-Firmware.elf.dir
   OBJECT_FILE_DIR = CMakeFiles/VFDFFT-Firmware.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src
@@ -260,7 +268,7 @@ build CMakeFiles/VFDFFT-Firmware.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f
 build CMakeFiles/VFDFFT-Firmware.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj: C_COMPILER__VFDFFT-Firmware.2eelf_Release /home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c || cmake_object_order_depends_target_VFDFFT-Firmware.elf
   DEFINES = -DSTM32F446xx -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles/VFDFFT-Firmware.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj.d
-  FLAGS = -O3 -DNDEBUG -fdiagnostics-color=always -mcpu=cortex-m4 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Ofast -std=gnu11
+  FLAGS = -O3 -DNDEBUG -fdiagnostics-color=always -mcpu=cortex-m4 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Ofast -std=gnu2x
   INCLUDES = -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Core/Inc -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/STM32F4xx_HAL_Driver/Inc -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/CMSIS/Device/ST/STM32F4xx/Include -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles/VFDFFT-Firmware.elf.dir
   OBJECT_FILE_DIR = CMakeFiles/VFDFFT-Firmware.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src
@@ -268,7 +276,7 @@ build CMakeFiles/VFDFFT-Firmware.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f
 build CMakeFiles/VFDFFT-Firmware.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj: C_COMPILER__VFDFFT-Firmware.2eelf_Release /home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c || cmake_object_order_depends_target_VFDFFT-Firmware.elf
   DEFINES = -DSTM32F446xx -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles/VFDFFT-Firmware.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj.d
-  FLAGS = -O3 -DNDEBUG -fdiagnostics-color=always -mcpu=cortex-m4 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Ofast -std=gnu11
+  FLAGS = -O3 -DNDEBUG -fdiagnostics-color=always -mcpu=cortex-m4 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Ofast -std=gnu2x
   INCLUDES = -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Core/Inc -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/STM32F4xx_HAL_Driver/Inc -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/CMSIS/Device/ST/STM32F4xx/Include -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles/VFDFFT-Firmware.elf.dir
   OBJECT_FILE_DIR = CMakeFiles/VFDFFT-Firmware.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src
@@ -276,7 +284,7 @@ build CMakeFiles/VFDFFT-Firmware.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f
 build CMakeFiles/VFDFFT-Firmware.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj: C_COMPILER__VFDFFT-Firmware.2eelf_Release /home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c || cmake_object_order_depends_target_VFDFFT-Firmware.elf
   DEFINES = -DSTM32F446xx -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles/VFDFFT-Firmware.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj.d
-  FLAGS = -O3 -DNDEBUG -fdiagnostics-color=always -mcpu=cortex-m4 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Ofast -std=gnu11
+  FLAGS = -O3 -DNDEBUG -fdiagnostics-color=always -mcpu=cortex-m4 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Ofast -std=gnu2x
   INCLUDES = -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Core/Inc -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/STM32F4xx_HAL_Driver/Inc -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/CMSIS/Device/ST/STM32F4xx/Include -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles/VFDFFT-Firmware.elf.dir
   OBJECT_FILE_DIR = CMakeFiles/VFDFFT-Firmware.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src
@@ -284,7 +292,7 @@ build CMakeFiles/VFDFFT-Firmware.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f
 build CMakeFiles/VFDFFT-Firmware.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj: C_COMPILER__VFDFFT-Firmware.2eelf_Release /home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c || cmake_object_order_depends_target_VFDFFT-Firmware.elf
   DEFINES = -DSTM32F446xx -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles/VFDFFT-Firmware.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj.d
-  FLAGS = -O3 -DNDEBUG -fdiagnostics-color=always -mcpu=cortex-m4 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Ofast -std=gnu11
+  FLAGS = -O3 -DNDEBUG -fdiagnostics-color=always -mcpu=cortex-m4 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Ofast -std=gnu2x
   INCLUDES = -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Core/Inc -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/STM32F4xx_HAL_Driver/Inc -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/CMSIS/Device/ST/STM32F4xx/Include -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles/VFDFFT-Firmware.elf.dir
   OBJECT_FILE_DIR = CMakeFiles/VFDFFT-Firmware.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src
@@ -292,7 +300,7 @@ build CMakeFiles/VFDFFT-Firmware.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f
 build CMakeFiles/VFDFFT-Firmware.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj: C_COMPILER__VFDFFT-Firmware.2eelf_Release /home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c || cmake_object_order_depends_target_VFDFFT-Firmware.elf
   DEFINES = -DSTM32F446xx -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles/VFDFFT-Firmware.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj.d
-  FLAGS = -O3 -DNDEBUG -fdiagnostics-color=always -mcpu=cortex-m4 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Ofast -std=gnu11
+  FLAGS = -O3 -DNDEBUG -fdiagnostics-color=always -mcpu=cortex-m4 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Ofast -std=gnu2x
   INCLUDES = -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Core/Inc -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/STM32F4xx_HAL_Driver/Inc -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/CMSIS/Device/ST/STM32F4xx/Include -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles/VFDFFT-Firmware.elf.dir
   OBJECT_FILE_DIR = CMakeFiles/VFDFFT-Firmware.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src
@@ -300,7 +308,7 @@ build CMakeFiles/VFDFFT-Firmware.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f
 build CMakeFiles/VFDFFT-Firmware.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c.obj: C_COMPILER__VFDFFT-Firmware.2eelf_Release /home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c || cmake_object_order_depends_target_VFDFFT-Firmware.elf
   DEFINES = -DSTM32F446xx -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles/VFDFFT-Firmware.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c.obj.d
-  FLAGS = -O3 -DNDEBUG -fdiagnostics-color=always -mcpu=cortex-m4 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Ofast -std=gnu11
+  FLAGS = -O3 -DNDEBUG -fdiagnostics-color=always -mcpu=cortex-m4 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Ofast -std=gnu2x
   INCLUDES = -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Core/Inc -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/STM32F4xx_HAL_Driver/Inc -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/CMSIS/Device/ST/STM32F4xx/Include -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles/VFDFFT-Firmware.elf.dir
   OBJECT_FILE_DIR = CMakeFiles/VFDFFT-Firmware.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src
@@ -308,7 +316,7 @@ build CMakeFiles/VFDFFT-Firmware.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f
 build CMakeFiles/VFDFFT-Firmware.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj: C_COMPILER__VFDFFT-Firmware.2eelf_Release /home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c || cmake_object_order_depends_target_VFDFFT-Firmware.elf
   DEFINES = -DSTM32F446xx -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles/VFDFFT-Firmware.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj.d
-  FLAGS = -O3 -DNDEBUG -fdiagnostics-color=always -mcpu=cortex-m4 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Ofast -std=gnu11
+  FLAGS = -O3 -DNDEBUG -fdiagnostics-color=always -mcpu=cortex-m4 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Ofast -std=gnu2x
   INCLUDES = -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Core/Inc -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/STM32F4xx_HAL_Driver/Inc -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/CMSIS/Device/ST/STM32F4xx/Include -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles/VFDFFT-Firmware.elf.dir
   OBJECT_FILE_DIR = CMakeFiles/VFDFFT-Firmware.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src
@@ -316,7 +324,7 @@ build CMakeFiles/VFDFFT-Firmware.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f
 build CMakeFiles/VFDFFT-Firmware.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.obj: C_COMPILER__VFDFFT-Firmware.2eelf_Release /home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c || cmake_object_order_depends_target_VFDFFT-Firmware.elf
   DEFINES = -DSTM32F446xx -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles/VFDFFT-Firmware.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.obj.d
-  FLAGS = -O3 -DNDEBUG -fdiagnostics-color=always -mcpu=cortex-m4 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Ofast -std=gnu11
+  FLAGS = -O3 -DNDEBUG -fdiagnostics-color=always -mcpu=cortex-m4 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Ofast -std=gnu2x
   INCLUDES = -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Core/Inc -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/STM32F4xx_HAL_Driver/Inc -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/CMSIS/Device/ST/STM32F4xx/Include -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles/VFDFFT-Firmware.elf.dir
   OBJECT_FILE_DIR = CMakeFiles/VFDFFT-Firmware.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src
@@ -324,7 +332,7 @@ build CMakeFiles/VFDFFT-Firmware.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f
 build CMakeFiles/VFDFFT-Firmware.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s.c.obj: C_COMPILER__VFDFFT-Firmware.2eelf_Release /home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s.c || cmake_object_order_depends_target_VFDFFT-Firmware.elf
   DEFINES = -DSTM32F446xx -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles/VFDFFT-Firmware.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s.c.obj.d
-  FLAGS = -O3 -DNDEBUG -fdiagnostics-color=always -mcpu=cortex-m4 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Ofast -std=gnu11
+  FLAGS = -O3 -DNDEBUG -fdiagnostics-color=always -mcpu=cortex-m4 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Ofast -std=gnu2x
   INCLUDES = -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Core/Inc -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/STM32F4xx_HAL_Driver/Inc -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/CMSIS/Device/ST/STM32F4xx/Include -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles/VFDFFT-Firmware.elf.dir
   OBJECT_FILE_DIR = CMakeFiles/VFDFFT-Firmware.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src
@@ -332,7 +340,7 @@ build CMakeFiles/VFDFFT-Firmware.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f
 build CMakeFiles/VFDFFT-Firmware.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c.obj: C_COMPILER__VFDFFT-Firmware.2eelf_Release /home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c || cmake_object_order_depends_target_VFDFFT-Firmware.elf
   DEFINES = -DSTM32F446xx -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles/VFDFFT-Firmware.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c.obj.d
-  FLAGS = -O3 -DNDEBUG -fdiagnostics-color=always -mcpu=cortex-m4 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Ofast -std=gnu11
+  FLAGS = -O3 -DNDEBUG -fdiagnostics-color=always -mcpu=cortex-m4 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Ofast -std=gnu2x
   INCLUDES = -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Core/Inc -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/STM32F4xx_HAL_Driver/Inc -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/CMSIS/Device/ST/STM32F4xx/Include -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles/VFDFFT-Firmware.elf.dir
   OBJECT_FILE_DIR = CMakeFiles/VFDFFT-Firmware.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src
@@ -340,7 +348,7 @@ build CMakeFiles/VFDFFT-Firmware.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f
 build CMakeFiles/VFDFFT-Firmware.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj: C_COMPILER__VFDFFT-Firmware.2eelf_Release /home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c || cmake_object_order_depends_target_VFDFFT-Firmware.elf
   DEFINES = -DSTM32F446xx -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles/VFDFFT-Firmware.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj.d
-  FLAGS = -O3 -DNDEBUG -fdiagnostics-color=always -mcpu=cortex-m4 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Ofast -std=gnu11
+  FLAGS = -O3 -DNDEBUG -fdiagnostics-color=always -mcpu=cortex-m4 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Ofast -std=gnu2x
   INCLUDES = -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Core/Inc -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/STM32F4xx_HAL_Driver/Inc -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/CMSIS/Device/ST/STM32F4xx/Include -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles/VFDFFT-Firmware.elf.dir
   OBJECT_FILE_DIR = CMakeFiles/VFDFFT-Firmware.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src
@@ -348,7 +356,7 @@ build CMakeFiles/VFDFFT-Firmware.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f
 build CMakeFiles/VFDFFT-Firmware.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj: C_COMPILER__VFDFFT-Firmware.2eelf_Release /home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c || cmake_object_order_depends_target_VFDFFT-Firmware.elf
   DEFINES = -DSTM32F446xx -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles/VFDFFT-Firmware.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj.d
-  FLAGS = -O3 -DNDEBUG -fdiagnostics-color=always -mcpu=cortex-m4 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Ofast -std=gnu11
+  FLAGS = -O3 -DNDEBUG -fdiagnostics-color=always -mcpu=cortex-m4 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Ofast -std=gnu2x
   INCLUDES = -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Core/Inc -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/STM32F4xx_HAL_Driver/Inc -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/CMSIS/Device/ST/STM32F4xx/Include -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles/VFDFFT-Firmware.elf.dir
   OBJECT_FILE_DIR = CMakeFiles/VFDFFT-Firmware.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src
@@ -356,7 +364,7 @@ build CMakeFiles/VFDFFT-Firmware.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f
 build CMakeFiles/VFDFFT-Firmware.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_qspi.c.obj: C_COMPILER__VFDFFT-Firmware.2eelf_Release /home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_qspi.c || cmake_object_order_depends_target_VFDFFT-Firmware.elf
   DEFINES = -DSTM32F446xx -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles/VFDFFT-Firmware.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_qspi.c.obj.d
-  FLAGS = -O3 -DNDEBUG -fdiagnostics-color=always -mcpu=cortex-m4 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Ofast -std=gnu11
+  FLAGS = -O3 -DNDEBUG -fdiagnostics-color=always -mcpu=cortex-m4 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Ofast -std=gnu2x
   INCLUDES = -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Core/Inc -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/STM32F4xx_HAL_Driver/Inc -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/CMSIS/Device/ST/STM32F4xx/Include -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles/VFDFFT-Firmware.elf.dir
   OBJECT_FILE_DIR = CMakeFiles/VFDFFT-Firmware.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src
@@ -364,7 +372,7 @@ build CMakeFiles/VFDFFT-Firmware.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f
 build CMakeFiles/VFDFFT-Firmware.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj: C_COMPILER__VFDFFT-Firmware.2eelf_Release /home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c || cmake_object_order_depends_target_VFDFFT-Firmware.elf
   DEFINES = -DSTM32F446xx -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles/VFDFFT-Firmware.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj.d
-  FLAGS = -O3 -DNDEBUG -fdiagnostics-color=always -mcpu=cortex-m4 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Ofast -std=gnu11
+  FLAGS = -O3 -DNDEBUG -fdiagnostics-color=always -mcpu=cortex-m4 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Ofast -std=gnu2x
   INCLUDES = -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Core/Inc -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/STM32F4xx_HAL_Driver/Inc -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/CMSIS/Device/ST/STM32F4xx/Include -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles/VFDFFT-Firmware.elf.dir
   OBJECT_FILE_DIR = CMakeFiles/VFDFFT-Firmware.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src
@@ -372,7 +380,7 @@ build CMakeFiles/VFDFFT-Firmware.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f
 build CMakeFiles/VFDFFT-Firmware.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj: C_COMPILER__VFDFFT-Firmware.2eelf_Release /home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c || cmake_object_order_depends_target_VFDFFT-Firmware.elf
   DEFINES = -DSTM32F446xx -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles/VFDFFT-Firmware.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj.d
-  FLAGS = -O3 -DNDEBUG -fdiagnostics-color=always -mcpu=cortex-m4 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Ofast -std=gnu11
+  FLAGS = -O3 -DNDEBUG -fdiagnostics-color=always -mcpu=cortex-m4 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Ofast -std=gnu2x
   INCLUDES = -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Core/Inc -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/STM32F4xx_HAL_Driver/Inc -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/CMSIS/Device/ST/STM32F4xx/Include -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles/VFDFFT-Firmware.elf.dir
   OBJECT_FILE_DIR = CMakeFiles/VFDFFT-Firmware.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src
@@ -380,7 +388,7 @@ build CMakeFiles/VFDFFT-Firmware.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f
 build CMakeFiles/VFDFFT-Firmware.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sd.c.obj: C_COMPILER__VFDFFT-Firmware.2eelf_Release /home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sd.c || cmake_object_order_depends_target_VFDFFT-Firmware.elf
   DEFINES = -DSTM32F446xx -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles/VFDFFT-Firmware.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sd.c.obj.d
-  FLAGS = -O3 -DNDEBUG -fdiagnostics-color=always -mcpu=cortex-m4 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Ofast -std=gnu11
+  FLAGS = -O3 -DNDEBUG -fdiagnostics-color=always -mcpu=cortex-m4 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Ofast -std=gnu2x
   INCLUDES = -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Core/Inc -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/STM32F4xx_HAL_Driver/Inc -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/CMSIS/Device/ST/STM32F4xx/Include -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles/VFDFFT-Firmware.elf.dir
   OBJECT_FILE_DIR = CMakeFiles/VFDFFT-Firmware.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src
@@ -388,7 +396,7 @@ build CMakeFiles/VFDFFT-Firmware.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f
 build CMakeFiles/VFDFFT-Firmware.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj: C_COMPILER__VFDFFT-Firmware.2eelf_Release /home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c || cmake_object_order_depends_target_VFDFFT-Firmware.elf
   DEFINES = -DSTM32F446xx -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles/VFDFFT-Firmware.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj.d
-  FLAGS = -O3 -DNDEBUG -fdiagnostics-color=always -mcpu=cortex-m4 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Ofast -std=gnu11
+  FLAGS = -O3 -DNDEBUG -fdiagnostics-color=always -mcpu=cortex-m4 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Ofast -std=gnu2x
   INCLUDES = -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Core/Inc -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/STM32F4xx_HAL_Driver/Inc -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/CMSIS/Device/ST/STM32F4xx/Include -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles/VFDFFT-Firmware.elf.dir
   OBJECT_FILE_DIR = CMakeFiles/VFDFFT-Firmware.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src
@@ -396,7 +404,7 @@ build CMakeFiles/VFDFFT-Firmware.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f
 build CMakeFiles/VFDFFT-Firmware.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj: C_COMPILER__VFDFFT-Firmware.2eelf_Release /home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c || cmake_object_order_depends_target_VFDFFT-Firmware.elf
   DEFINES = -DSTM32F446xx -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles/VFDFFT-Firmware.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj.d
-  FLAGS = -O3 -DNDEBUG -fdiagnostics-color=always -mcpu=cortex-m4 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Ofast -std=gnu11
+  FLAGS = -O3 -DNDEBUG -fdiagnostics-color=always -mcpu=cortex-m4 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Ofast -std=gnu2x
   INCLUDES = -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Core/Inc -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/STM32F4xx_HAL_Driver/Inc -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/CMSIS/Device/ST/STM32F4xx/Include -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles/VFDFFT-Firmware.elf.dir
   OBJECT_FILE_DIR = CMakeFiles/VFDFFT-Firmware.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src
@@ -404,7 +412,7 @@ build CMakeFiles/VFDFFT-Firmware.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f
 build CMakeFiles/VFDFFT-Firmware.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj: C_COMPILER__VFDFFT-Firmware.2eelf_Release /home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c || cmake_object_order_depends_target_VFDFFT-Firmware.elf
   DEFINES = -DSTM32F446xx -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles/VFDFFT-Firmware.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj.d
-  FLAGS = -O3 -DNDEBUG -fdiagnostics-color=always -mcpu=cortex-m4 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Ofast -std=gnu11
+  FLAGS = -O3 -DNDEBUG -fdiagnostics-color=always -mcpu=cortex-m4 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Ofast -std=gnu2x
   INCLUDES = -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Core/Inc -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/STM32F4xx_HAL_Driver/Inc -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/CMSIS/Device/ST/STM32F4xx/Include -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles/VFDFFT-Firmware.elf.dir
   OBJECT_FILE_DIR = CMakeFiles/VFDFFT-Firmware.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src
@@ -412,7 +420,7 @@ build CMakeFiles/VFDFFT-Firmware.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f
 build CMakeFiles/VFDFFT-Firmware.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj: C_COMPILER__VFDFFT-Firmware.2eelf_Release /home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c || cmake_object_order_depends_target_VFDFFT-Firmware.elf
   DEFINES = -DSTM32F446xx -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles/VFDFFT-Firmware.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj.d
-  FLAGS = -O3 -DNDEBUG -fdiagnostics-color=always -mcpu=cortex-m4 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Ofast -std=gnu11
+  FLAGS = -O3 -DNDEBUG -fdiagnostics-color=always -mcpu=cortex-m4 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Ofast -std=gnu2x
   INCLUDES = -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Core/Inc -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/STM32F4xx_HAL_Driver/Inc -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/CMSIS/Device/ST/STM32F4xx/Include -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles/VFDFFT-Firmware.elf.dir
   OBJECT_FILE_DIR = CMakeFiles/VFDFFT-Firmware.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src
@@ -420,7 +428,7 @@ build CMakeFiles/VFDFFT-Firmware.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f
 build CMakeFiles/VFDFFT-Firmware.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_sdmmc.c.obj: C_COMPILER__VFDFFT-Firmware.2eelf_Release /home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_sdmmc.c || cmake_object_order_depends_target_VFDFFT-Firmware.elf
   DEFINES = -DSTM32F446xx -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles/VFDFFT-Firmware.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_sdmmc.c.obj.d
-  FLAGS = -O3 -DNDEBUG -fdiagnostics-color=always -mcpu=cortex-m4 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Ofast -std=gnu11
+  FLAGS = -O3 -DNDEBUG -fdiagnostics-color=always -mcpu=cortex-m4 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Ofast -std=gnu2x
   INCLUDES = -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Core/Inc -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/STM32F4xx_HAL_Driver/Inc -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/CMSIS/Device/ST/STM32F4xx/Include -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles/VFDFFT-Firmware.elf.dir
   OBJECT_FILE_DIR = CMakeFiles/VFDFFT-Firmware.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src
@@ -428,7 +436,7 @@ build CMakeFiles/VFDFFT-Firmware.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f
 build CMakeFiles/VFDFFT-Firmware.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.obj: C_COMPILER__VFDFFT-Firmware.2eelf_Release /home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c || cmake_object_order_depends_target_VFDFFT-Firmware.elf
   DEFINES = -DSTM32F446xx -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles/VFDFFT-Firmware.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.obj.d
-  FLAGS = -O3 -DNDEBUG -fdiagnostics-color=always -mcpu=cortex-m4 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Ofast -std=gnu11
+  FLAGS = -O3 -DNDEBUG -fdiagnostics-color=always -mcpu=cortex-m4 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Ofast -std=gnu2x
   INCLUDES = -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Core/Inc -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/STM32F4xx_HAL_Driver/Inc -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/CMSIS/Device/ST/STM32F4xx/Include -I/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles/VFDFFT-Firmware.elf.dir
   OBJECT_FILE_DIR = CMakeFiles/VFDFFT-Firmware.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src
@@ -449,7 +457,7 @@ build CMakeFiles/VFDFFT-Firmware.elf.dir/startup/startup_stm32f446xx.s.obj: ASM_
 #############################################
 # Link the executable VFDFFT-Firmware.elf
 
-build VFDFFT-Firmware.elf: CXX_EXECUTABLE_LINKER__VFDFFT-Firmware.2eelf_Release CMakeFiles/VFDFFT-Firmware.elf.dir/Core/Src/dac.c.obj CMakeFiles/VFDFFT-Firmware.elf.dir/Core/Src/dma.c.obj CMakeFiles/VFDFFT-Firmware.elf.dir/Core/Src/es9023.cpp.obj CMakeFiles/VFDFFT-Firmware.elf.dir/Core/Src/gp1287bi.cpp.obj CMakeFiles/VFDFFT-Firmware.elf.dir/Core/Src/gpio.c.obj CMakeFiles/VFDFFT-Firmware.elf.dir/Core/Src/hdc1080.cpp.obj CMakeFiles/VFDFFT-Firmware.elf.dir/Core/Src/i2c.c.obj CMakeFiles/VFDFFT-Firmware.elf.dir/Core/Src/i2s.c.obj CMakeFiles/VFDFFT-Firmware.elf.dir/Core/Src/main.c.obj CMakeFiles/VFDFFT-Firmware.elf.dir/Core/Src/opt3001.cpp.obj CMakeFiles/VFDFFT-Firmware.elf.dir/Core/Src/quadspi.c.obj CMakeFiles/VFDFFT-Firmware.elf.dir/Core/Src/sdio.c.obj CMakeFiles/VFDFFT-Firmware.elf.dir/Core/Src/spi.c.obj CMakeFiles/VFDFFT-Firmware.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj CMakeFiles/VFDFFT-Firmware.elf.dir/Core/Src/stm32f4xx_it.c.obj CMakeFiles/VFDFFT-Firmware.elf.dir/Core/Src/syscalls.c.obj CMakeFiles/VFDFFT-Firmware.elf.dir/Core/Src/system_stm32f4xx.c.obj CMakeFiles/VFDFFT-Firmware.elf.dir/Core/Src/usart.c.obj CMakeFiles/VFDFFT-Firmware.elf.dir/Core/Src/usb_otg.c.obj CMakeFiles/VFDFFT-Firmware.elf.dir/Core/Src/w25q128.cpp.obj CMakeFiles/VFDFFT-Firmware.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj CMakeFiles/VFDFFT-Firmware.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj CMakeFiles/VFDFFT-Firmware.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac.c.obj CMakeFiles/VFDFFT-Firmware.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac_ex.c.obj CMakeFiles/VFDFFT-Firmware.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj CMakeFiles/VFDFFT-Firmware.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj CMakeFiles/VFDFFT-Firmware.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj CMakeFiles/VFDFFT-Firmware.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj CMakeFiles/VFDFFT-Firmware.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj CMakeFiles/VFDFFT-Firmware.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj CMakeFiles/VFDFFT-Firmware.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj CMakeFiles/VFDFFT-Firmware.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c.obj CMakeFiles/VFDFFT-Firmware.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj CMakeFiles/VFDFFT-Firmware.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.obj CMakeFiles/VFDFFT-Firmware.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s.c.obj CMakeFiles/VFDFFT-Firmware.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c.obj CMakeFiles/VFDFFT-Firmware.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj CMakeFiles/VFDFFT-Firmware.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj CMakeFiles/VFDFFT-Firmware.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_qspi.c.obj CMakeFiles/VFDFFT-Firmware.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj CMakeFiles/VFDFFT-Firmware.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj CMakeFiles/VFDFFT-Firmware.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sd.c.obj CMakeFiles/VFDFFT-Firmware.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj CMakeFiles/VFDFFT-Firmware.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj CMakeFiles/VFDFFT-Firmware.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj CMakeFiles/VFDFFT-Firmware.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj CMakeFiles/VFDFFT-Firmware.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_sdmmc.c.obj CMakeFiles/VFDFFT-Firmware.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.obj CMakeFiles/VFDFFT-Firmware.elf.dir/startup/startup_stm32f446xx.s.obj
+build VFDFFT-Firmware.elf: CXX_EXECUTABLE_LINKER__VFDFFT-Firmware.2eelf_Release CMakeFiles/VFDFFT-Firmware.elf.dir/Core/Src/dac.c.obj CMakeFiles/VFDFFT-Firmware.elf.dir/Core/Src/dma.c.obj CMakeFiles/VFDFFT-Firmware.elf.dir/Core/Src/es9023.cpp.obj CMakeFiles/VFDFFT-Firmware.elf.dir/Core/Src/gp1287bi.cpp.obj CMakeFiles/VFDFFT-Firmware.elf.dir/Core/Src/gpio.c.obj CMakeFiles/VFDFFT-Firmware.elf.dir/Core/Src/hdc1080.cpp.obj CMakeFiles/VFDFFT-Firmware.elf.dir/Core/Src/i2c.c.obj CMakeFiles/VFDFFT-Firmware.elf.dir/Core/Src/i2s.c.obj CMakeFiles/VFDFFT-Firmware.elf.dir/Core/Src/logging.cpp.obj CMakeFiles/VFDFFT-Firmware.elf.dir/Core/Src/main.c.obj CMakeFiles/VFDFFT-Firmware.elf.dir/Core/Src/opt3001.cpp.obj CMakeFiles/VFDFFT-Firmware.elf.dir/Core/Src/quadspi.c.obj CMakeFiles/VFDFFT-Firmware.elf.dir/Core/Src/sdio.c.obj CMakeFiles/VFDFFT-Firmware.elf.dir/Core/Src/spi.c.obj CMakeFiles/VFDFFT-Firmware.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj CMakeFiles/VFDFFT-Firmware.elf.dir/Core/Src/stm32f4xx_it.c.obj CMakeFiles/VFDFFT-Firmware.elf.dir/Core/Src/syscalls.c.obj CMakeFiles/VFDFFT-Firmware.elf.dir/Core/Src/system_stm32f4xx.c.obj CMakeFiles/VFDFFT-Firmware.elf.dir/Core/Src/usart.c.obj CMakeFiles/VFDFFT-Firmware.elf.dir/Core/Src/usb_otg.c.obj CMakeFiles/VFDFFT-Firmware.elf.dir/Core/Src/w25q128.cpp.obj CMakeFiles/VFDFFT-Firmware.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj CMakeFiles/VFDFFT-Firmware.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj CMakeFiles/VFDFFT-Firmware.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac.c.obj CMakeFiles/VFDFFT-Firmware.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac_ex.c.obj CMakeFiles/VFDFFT-Firmware.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj CMakeFiles/VFDFFT-Firmware.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj CMakeFiles/VFDFFT-Firmware.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj CMakeFiles/VFDFFT-Firmware.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj CMakeFiles/VFDFFT-Firmware.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj CMakeFiles/VFDFFT-Firmware.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj CMakeFiles/VFDFFT-Firmware.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj CMakeFiles/VFDFFT-Firmware.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c.obj CMakeFiles/VFDFFT-Firmware.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj CMakeFiles/VFDFFT-Firmware.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.obj CMakeFiles/VFDFFT-Firmware.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s.c.obj CMakeFiles/VFDFFT-Firmware.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c.obj CMakeFiles/VFDFFT-Firmware.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj CMakeFiles/VFDFFT-Firmware.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj CMakeFiles/VFDFFT-Firmware.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_qspi.c.obj CMakeFiles/VFDFFT-Firmware.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj CMakeFiles/VFDFFT-Firmware.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj CMakeFiles/VFDFFT-Firmware.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sd.c.obj CMakeFiles/VFDFFT-Firmware.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj CMakeFiles/VFDFFT-Firmware.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj CMakeFiles/VFDFFT-Firmware.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj CMakeFiles/VFDFFT-Firmware.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj CMakeFiles/VFDFFT-Firmware.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_sdmmc.c.obj CMakeFiles/VFDFFT-Firmware.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.obj CMakeFiles/VFDFFT-Firmware.elf.dir/startup/startup_stm32f446xx.s.obj
   FLAGS = -O3 -DNDEBUG
   LINK_FLAGS = -Wl,-gc-sections,--print-memory-usage,-Map=/home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/cmake-build-release/VFDFFT-Firmware.map -mcpu=cortex-m4 -mthumb -mthumb-interwork -T /home/timicasto/Projects/Hardware/VFDFFT/Firmware/VFDFFT-Firmware/STM32F446VETx_FLASH.ld
   OBJECT_DIR = CMakeFiles/VFDFFT-Firmware.elf.dir
